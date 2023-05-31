@@ -13,7 +13,7 @@ layout: default
 
         <article>
           {% if page.profile -%}
-          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+          <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}" style="max-width: 30vw">
             {%- if page.profile.image %}
               {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
 
@@ -33,6 +33,20 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+            
+            {%- if page.social %}
+              <div class="social">
+                <div class="contact-icons">
+                  {% include social.html %}
+                </div>
+
+                <div class="contact-note">
+                  {{ site.contact_note }}
+                </div>
+
+              </div>
+            {%- endif %}
+
           </div>
           {%- endif %}
 
@@ -59,18 +73,7 @@ layout: default
           {%- endif %}
 
           <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
+          
         </article>
 
 </div>
