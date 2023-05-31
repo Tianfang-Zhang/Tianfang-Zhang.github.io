@@ -1,32 +1,8 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
-inline: false
+date: 2020-10-19 16:11:00-0400
+inline: true
 related_posts: false
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
-
-***
-
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
-#### Hipster list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
-
-***
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+Our paper "Zhang T, Peng Z, Wu H, et al. Infrared small target detection via self-regularized weighted sparse model[J]. Neurocomputing, 420: 124-148." have been published online, [PDF version](https://pdf.sciencedirectassets.com/271597/1-s2.0-S0925231220X00439/1-s2.0-S0925231220313461/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHAaCXVzLWVhc3QtMSJIMEYCIQD2HZB1JNKyRS61tpeWm8LEoHgh0wlPy4po872l2oXf8gIhAIy668lZkOiG5QhD%2BWk7SSJcg70BnA%2BYOzDEzMPeHJqSKr0DCOj%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQAxoMMDU5MDAzNTQ2ODY1IgzDQiNV%2BhZAggMsnEMqkQNUx8Gma9%2FX4vmZJDMvIL8zygJA6dgGNtBfvpeazidf%2FdTDcp8%2BotOfQNNq1b1NLfCNBqOZS%2Bmt73aY36O0Z0GiNsL8MDTlO3gS1%2FiwFsgk2Rt7UHMf0elXIhHhTge6%2FciWTGLnsq0HmPQrhRzhD6%2FtLtoWoBjPF4k6eivX99SJrdheFfvcYIJyKqmB1YOEiOPNHXxQlxisduFU3B37qaIriVq0ixNV0vquJnhKlpYoi%2FUak8jEDcAl%2FVRfVoU%2BV3is0QeHhGEnS826MUMWhwanSCi2epkp533Zu1do6mMrvam4V1JRGIVzdk%2Fxu%2Bfsl9J%2FUELvcqKpIjR%2BzBsxcJOdNsQlK%2FXgswtStgFkeiYubciYZZfxKvGBWnZtQKVkUkqbwMqHIgsSbqKsLqqEBaB%2BrDTx31ue6bCKcz7r6OB168dmvBmLIBTjJ5hd%2Bi9TJwGLtCcH%2BIx9jHI2d6QPS%2FrKYqR7qjlNPVg%2Fk5Y1U%2FTwnknDG28Zol54bBm5AaOV%2FpKqAj2UN0HB2tVeryD58gO3HzDTifj9BTrqAW7JhkheAaf8TWgD3RQ6%2B5zLtuAbuCfON%2FeAXzE%2Bw37tASV6zTCbbSWae7ra%2F7wGPiCGiiDV75GSbEYVyIL%2B2Fo9oEqipy0C7khS%2FRlDPSctlR%2FBA2q7E1V9B%2Fh1ZbK3PjeZy%2BIa5CXP4DXOBlBJ07cLa8nSK0V2bJV5I74M1uCfFiEH237cQSPUcv7eEfebV8dB7ajgmO1PUQ2JA0hZc%2BxF1eZ4%2BmR1pcvJAtgG5NaB%2B5W%2FHBSUN6s2zrNZfYwrmA6%2BTaP%2Fze0U7AjuFenePRvON8PhFSjYnYZErMOqjUoxKuHFV73PlRLlAw%3D%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20201125T081508Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY7S6YLN5M%2F20201125%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=8d010cddc433cf03ff1725920d6f8d04502556542052c537dc042c744184c378&hash=39fe9be7e9370f081bf3b018f8de8451564c5d2ac386ccda8f9aec371e5f46f4&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0925231220313461&tid=spdf-b1d4d46b-772c-4d68-a458-659cc63dd8f8&sid=7be223805b7dc14254284fa0527d70b40726gxrqa&type=client).
