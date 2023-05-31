@@ -41,6 +41,7 @@
 @article{zhang2023attention,
   title={Attention-Guided Pyramid Context Networks for Detecting Infrared Small Target Under Complex Background},
   author={Zhang, Tianfang and Li, Lei and Cao, Siying and Pu, Tian and Peng, Zhenming},
+  abstract={Infrared small target detection techniques remain a challenging task due to the complex background. To overcome this problem, by exploring context information, this research presents a data-driven approach called Attention-Guided Pyramid Context Network (AGPCNet). Specifically, we design Attention-Guided Context Block (AGCB) and perceive pixel correlations within and between patches at specific scales via Local Semantic Association (LSA) and Global Context Attention (GCA) respectively. Then the contextual information from multiple scales is fused by Context Pyramid Module (CPM) to achieve better feature representation. In the upsampling stage, we fuse the low and deep semantics through Asymmetric Fusion Module (AFM) to retain more information about small targets. The experimental results illustrate that AGPCNet has achieved state-of-the-art performance on three available infrared small target datasets.},  
   journal={IEEE Transactions on Aerospace and Electronic Systems},
   year={2023},
   publisher={IEEE},
@@ -51,6 +52,24 @@
   html={https://ieeexplore.ieee.org/abstract/document/10024907},
   code={https://github.com/Tianfang-Zhang/AGPCNet},
   selected={true}
+}
+
+@inproceedings{zhang2022lrcsnet,
+  title={LR-CSNet: Low-rank Deep Unfolding Network for Image Compressive Sensing},
+  author={Tianfang, Zhang and Lei, Li and Christian, Igel and Stefan, Oehmcke and Fabian, Gieseke and Zhenming, Peng},
+  booktitle={Proceedings of the 8th IEEE International Conference on Computer and Communications},
+  abstract={Deep unfolding networks (DUNs) have proven to be a viable approach to compressive sensing (CS). In this work, we propose a DUN called low-rank CS network (LR-CSNet) for natural image CS. Real-world image patches are often well-represented by low-rank approximations. LR-CSNet exploits this property by adding a low-rank prior to the CS optimization task. We derive a corresponding iterative optimization procedure using variable splitting, which is then translated to a new DUN architecture. The architecture uses low-rank generation modules (LRGMs), which learn low-rank matrix factorizations, as well as gradient descent and proximal mappings (GDPMs), which are proposed to extract high-frequency features to refine image details. In addition, the deep features generated at each reconstruction stage in the DUN are transferred between stages to boost the performance. Our extensive experiments on three widely considered datasets demonstrate the promising performance of LR-CSNet compared to state-of-the-art methods in natural image CS.},  
+  pages={1951--1957},
+  year={2022},
+  address={Virtual},
+
+  preview={lrcsnet.png},
+  award={Oral},
+  abbr={ICCC},
+  html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
+  % code={https://github.com/Tianfang-Zhang/AGPCNet},
+  arxiv={2212.09088},
+  selected={False}
 }
 
 @string{aps = {American Physical Society,}}
