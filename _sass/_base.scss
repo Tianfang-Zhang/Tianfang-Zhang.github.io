@@ -24,13 +24,11 @@ hr {
 }
 
 table {
-  td,
-  th {
-    font-size: 1rem;
+  td, th {
+    color: var(--global-text-color);
   }
-
-  th {
-    font-weight: bold;
+  td {
+    font-size: 1rem;
   }
 }
 
