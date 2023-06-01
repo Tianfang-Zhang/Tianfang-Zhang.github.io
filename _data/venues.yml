@@ -1,6 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Remote Sens.":
+  url: https://www.mdpi.com/journal/remotesensing
+  # color: "#00369f"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Neurocomputing":
+  url: https://www.sciencedirect.com/journal/neurocomputing
+
+"TAES":
+  url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=7
+
+"ICCC":
+  url: http://www.iccc.org/
