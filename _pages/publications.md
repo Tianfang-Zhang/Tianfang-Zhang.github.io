@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: Publications
 description: Authors marked by * contributed equally.
-years: [2023, 2022, 2021, 2019]
+years: [2023, 2022, 2021, 2019, 2018]
 nav: true
 nav_order: 1
 ---
