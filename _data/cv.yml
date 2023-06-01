@@ -11,7 +11,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Engineering
+    - title: Ph.D. in Information and Communication Engineering
       institution: School of Information and Communication Engineering, University of Electronic Science and Technology of China
       year: 2019 - 2023
       description:
@@ -25,18 +25,16 @@
       institution: Department of Computer Science, University of Copenhagen
       year: 2021 - 2022
       description:
-        - <u>Supervisor:</u> [Prof. Jon Sporring](https://sporring.github.io/)
-    - title: M.Eng.
+        - <u>Supervisor:</u> <a href="https://sporring.github.io/"><b>Prof. Jon Sporring</b></a>
+    - title: M.Eng. in Signal and Information Processing
       institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
       year: 2017 - 2019
       description:
         - Successive master-doctor program
-    - title: B.Eng
+    - title: B.Eng in Electronic Science and Technology
       institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
       year: 2013 - 2017
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+
 
 # - title: Experience
 #   type: time_table
@@ -83,7 +81,7 @@
   contents:
     - year: 2020
       items: 
-        - Joint doctoral scholarship awarded by [China Scholarship Council (CSC)](https://www.csc.edu.cn/).
+        - Joint doctoral scholarship awarded by <a href="https://www.csc.edu.cn/">China Scholarship Council (CSC)</a>.
 
 
 # - title: Academic Interests
