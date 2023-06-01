@@ -13,7 +13,7 @@
   publisher={MDPI},
 
   preview={nolc.png},
-  abbr={Remote Sensing},
+  abbr={Remote Sens.},
   html={https://www.mdpi.com/2072-4292/11/5/559},
   code={https://github.com/Tianfang-Zhang/NOLC},
   selected={true}
@@ -67,4 +67,92 @@
   html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
   arxiv={2212.09088},
   selected={true}
+}
+
+@article{zhang2018infrared,
+  title={Infrared Small Target Detection via Non-convex Rank Approximation Minimization Joint l2,1 Norm},
+  author={Zhang, Landan and Peng, Lingbing and Zhang, Tianfang and Cao, Siying and Peng, Zhenming},
+  journal={Remote Sensing},
+  volume={10},
+  number={11},
+  pages={1821},
+  year={2018},
+  publisher={MDPI},
+
+  abstract={To improve the detection ability of infrared small targets in complex backgrounds, a novel method based on non-convex rank approximation minimization joint l2,1 norm (NRAM) was proposed. Due to the defects of the nuclear norm and l1 norm, the state-of-the-art infrared image-patch (IPI) model usually leaves background residuals in the target image. To fix this problem, a non-convex, tighter rank surrogate and weighted l1 norm are instead utilized, which can suppress the background better while preserving the target efficiently. Considering that many state-of-the-art methods are still unable to fully suppress sparse strong edges, the structured l2,1 norm was introduced to wipe out the strong residuals. Furthermore, with the help of exploiting the structured norm and tighter rank surrogate, the proposed model was more robust when facing various complex or blurry scenes. To solve this non-convex model, an efficient optimization algorithm based on alternating direction method of multipliers (ADMM) plus difference of convex (DC) programming was designed. Extensive experimental results illustrate that the proposed method not only shows superiority in background suppression and target enhancement, but also reduces the computational complexity compared with other baselines.},  
+  preview={nram.png},
+  abbr={Remote Sens.},
+  html={https://www.mdpi.com/2072-4292/10/11/1821},
+  doi={10.3390/rs10111821},
+  selected={False}
+}
+
+@article{huang2019structure,
+  title={Structure-adaptive clutter suppression for infrared small target detection: Chain-growth filtering},
+  author={Huang, Suqi and Liu, Yuhan and He, Yanmin and Zhang, Tianfang and Peng, Zhenming},
+  journal={Remote Sensing},
+  volume={12},
+  number={1},
+  pages={47},
+  year={2019},
+  publisher={MDPI},
+
+  abstract={Robust detection of infrared small target is an important and challenging task in many photoelectric detection systems. Using the difference of a specific feature between the target and the background, various detection methods were proposed in recent decades. However, most methods extract the feature in a region with fixed shape, especially in a rectangular region, which causes a problem: when faced with complex-shape clutters, the rectangular region involves the pixels inside and outside the clutters, and the significant grey-level difference among these pixels leads to a relatively large feature in the clutter area, interfering with the target detection. In this paper, we propose a structure-adaptive clutter suppression method, called chain-growth filtering, for robust infrared small target detection. The well-designed filtering model can adjust its shape to fit various clutter structures such as lines, curves and irregular edges, and thus has a more robust clutter suppression capability than the fixed-shape feature extraction strategy. In addition, the proposed method achieves a considerable anti-noise ability by employing guided filter as a preprocessing approach and enjoys the capability of multi-scale target detection without complex parameter tuning. In the experiment, we evaluate the performance of the detection method through 12 typical infrared scenes which contain different types of clutters. Compared with seven state-of-the-art methods, the proposed method shows the superior clutter-suppression effects for various types of clutters and the excellent detection performance for various scenes.},  
+  preview={structure.png},
+  abbr={Remote Sens.},
+  html={https://www.mdpi.com/2072-4292/12/1/47},
+  doi={10.3390/rs12010047},
+  selected={False}
+}
+
+@article{peng2019infrared,
+  title={Infrared dim target detection using shearlet’s kurtosis maximization under non-uniform background},
+  author={Peng, Lingbing and Zhang, Tianfang and Liu, Yuhan and Li, Meihui and Peng, Zhenming},
+  journal={Symmetry},
+  volume={11},
+  number={5},
+  pages={723},
+  year={2019},
+  publisher={MDPI},
+
+  abstract={A novel method based on multiscale and multidirectional feature fusion in the shearlet transform domain and kurtosis maximization for detecting the dim target in infrared images with a low signal-to-noise ratio (SNR) and serious interference caused by a cluttered and non-uniform background is presented in this paper. First, an original image is decomposed using the shearlet transform with translation invariance. Second, various directions of high-frequency subbands are fused and the corresponding kurtosis of fused image is computed. The targets can be enhanced by strengthening the column with maximum kurtosis. Then, processed high-frequency subbands on different scales of images are merged. Finally, the dim targets are detected by an adaptive threshold with a maximum contrast criterion (MCC). The experimental results show that the proposed method has good performance for infrared target detection in comparison with the nonsubsampled contourlet transform (NSCT) method.},  
+  preview={symmetry.png},
+  abbr={Symmetry},
+  html={https://www.mdpi.com/2073-8994/11/5/723},
+  doi={10.3390/sym11050723},
+  selected={False}
+}
+
+@article{peng2019infraredsmall,
+  title={Infrared small-target detection based on multi-directional multi-scale high-boost response},
+  author={Peng, Lingbing and Zhang, Tianfang and Huang, Suqi and Pu, Tian and Liu, Yuhan and Lv, Yuxiao and Zheng, Yunchang and Peng, Zhenming},
+  journal={Optical Review},
+  volume={26},
+  pages={568--582},
+  year={2019},
+  publisher={Springer},
+
+  abstract={As of late, infrared (IR) small-target detection technology is broadly utilized in low-altitude monitoring frameworks, target-tracking frameworks, precise guidance frameworks and forest fire prevention frameworks. In this paper, we propose an infrared small-target detection strategy based on multi-directional multi-scale high-boost response (MDMSHB). First, an eight-direction filtering template is proposed, which can consider the directional information of the image and significantly suppress heterogeneous background such as cloud, linear interference and interface like ocean–sky background. Then, a map based on multi-directional multi-scale high-boost response (MDMSHB map) is calculated. Finally, a straightforward threshold segmentation technique is utilized to get the detection result. The simulation results comparing this method with the four state-of-the-art strategies in six sequences demonstrate that the proposed strategy can adequately suppress heterogeneous background and arbitrary noise. The approach can improve detection rate and reduce false alert rate as well.},  
+  preview={mdmshb.png},
+  abbr={Opt. Rev.},
+  html={https://link.springer.com/article/10.1007/s10043-019-00543-1},
+  selected={False}  
+}
+
+@article{li2023buildseg,
+  title={BuildSeg BuildSeg: A General Framework for the Segmentation of Buildings},
+  author={Li, Lei and Zhang, Tianfang and Stefan, Oehmcke and Fabian, Gieseke and Christian, Igel},
+  journal={Nordic Machine Intelligence},
+  volume={2},
+  number={3},
+  pages={13--16},
+  year={2023},
+  publisher={Nordic Machine Intelligence},
+
+  abstract={Building segmentation from aerial images and 3D laser scanning (LiDAR) is a challenging task due to the diversity of backgrounds, building textures, and image quality. While current research using different types of convolutional and transformer networks has considerably improved the performance on this task, more precise and accurate segmentation methods for buildings are desirable for applications such as automatic mapping. In this study, we propose a general framework termed BuildSeg employing a generic approach that can be quickly applied to segment buildings. Different data sources were combined to increase generalization performance. The approach yields good results for different data sources as shown by experiments on high-resolution multi-spectral and LiDAR imagery of cities in Norway, Denmark, and France. We applied ConvNeXt and SegFormer-based models on the high-resolution aerial image dataset from the MapAI-competition. The methods achieved an IoU of 0.7902 and a boundary IoU of 0.6185 on the test set. We used post-processing to account for the rectangular shape of the objects.This increased the boundary IOU from 0.6185 to 0.6189.},  
+  preview={buildseg.png},
+  doi={10.5617/nmi.10152},
+  abbr={NMI},
+  html={https://journals.uio.no/NMI/article/view/10152},
+  selected={False}  
 }
