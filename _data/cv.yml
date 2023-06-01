@@ -15,8 +15,8 @@
       institution: School of Information and Communication Engineering, University of Electronic Science and Technology of China
       year: 2019 - 2023
       description:
-        - <u>Supervisor</u>: [Prof. Zhenming Peng](https://www.sice.uestc.edu.cn/info/1302/5086.htm)
-        - <u>Thesis</u>: Infrared Small Target Detection Combined with Sparse Representation and Deep Learning
+        - <u>Supervisor</u>@#58 [Prof. Zhenming Peng](https://www.sice.uestc.edu.cn/info/1302/5086.htm)
+        - <u>Thesis</u>@#58 Infrared Small Target Detection Combined with Sparse Representation and Deep Learning
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -25,7 +25,7 @@
       institution: Department of Computer Science, University of Copenhagen
       year: 2021 - 2022
       description:
-        - <u>Supervisor</u>: [Prof. Jon Sporring](https://sporring.github.io/)
+        - <u>Supervisor</u>@#58 [Prof. Jon Sporring](https://sporring.github.io/)
     - title: M.Eng.
       institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
       year: 2017 - 2019
