@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper focus on Image Compressive Sensing named [CT-Net](https://www.sciencedirect.com/science/article/abs/pii/S095070512300713X) was published online by Knowledge-Based Systems(KBS).
+Our paper focus on Image Compressive Sensing named [CT-Net](https://www.sciencedirect.com/science/article/abs/pii/S095070512300713X) was published online by *Knowledge-Based Systems(KBS)*.
