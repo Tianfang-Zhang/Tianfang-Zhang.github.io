@@ -1,21 +1,53 @@
 ---
 ---
 
-@article{zhang2019infrared,
-  title={Infrared small target detection based on non-convex optimization with Lp-norm constraint},
-  author={Zhang, Tianfang and Wu, Hao and Liu, Yuhan and Peng, Lingbing and Yang, Chunping and Peng, Zhenming},
-  journal={Remote Sensing},
-  abstract={The infrared search and track (IRST) system has been widely used, and the field of infrared small target detection has also received much attention. Based on this background, this paper proposes a novel infrared small target detection method based on non-convex optimization with Lp-norm constraint (NOLC). The NOLC method strengthens the sparse item constraint with Lp-norm while appropriately scaling the constraints on low-rank item, so the NP-hard problem is transformed into a non-convex optimization problem. First, the infrared image is converted into a patch image and is secondly solved by the alternating direction method of multipliers (ADMM). In this paper, an efficient solver is given by improving the convergence strategy. The experiment shows that NOLC can accurately detect the target and greatly suppress the background, and the advantages of the NOLC method in detection efficiency and computational efficiency are verified.},  
-  volume={11},
-  number={5},
-  pages={559},
-  year={2019},
-  publisher={MDPI},
+@article{zhang2023optimization,
+  title={Optimization-inspired Cumulative Transmission Network for image compressive sensing},
+  author={Zhang, Tianfang and Li, Lei and Peng, Zhenming},
+  journal={Knowledge-Based Systems},
+  pages={110963},
+  year={2023},
+  publisher={Elsevier},
 
-  preview={nolc.png},
-  abbr={Remote Sens.},
-  html={https://www.mdpi.com/2072-4292/11/5/559},
-  code={https://github.com/Tianfang-Zhang/NOLC},
+  abstract={Compressive Sensing (CS) techniques enable accurate signal reconstruction with few measurements. Deep Unfolding Networks (DUNs) have recently been shown to increase the efficiency of CS by emulating iterative CS optimization procedures by neural networks. However, most of these DUNs suffer from redundant update procedures or complex matrix operations, which can impair their reconstruction performances. Here we propose the optimization-inspired Cumulative Transmission Network (CT-Net), a DUN approach for natural image CS. We formulate an optimization procedure introducing an auxiliary variable similar to Half Quadratic Splitting (HQS). Unfolding this procedure defines the basic structure of our neural architecture, which is then further refined. A CT-Net is composed of Reconstruction Fidelity Modules (RFMs) for minimizing the reconstruction error and Constraint Gradient Approximation (CGA) modules for approximating (the gradient of) sparsity constraints instead of relying on an analytic solutions such as soft-thresholding. Furthermore, a lightweight Cumulative Transmission (CT) between CGAs in each reconstruction stage is proposed to facilitate a better feature representation. Experiments on several widely used natural image benchmarks illustrate the effectiveness of CT-Net with significant performance improvements and fewer network parameters compared to existing state-of-the-art methods. The experiments also demonstrate the scene and noise robustness of the proposed method.},  
+  preview={ctnet.png},
+  doi={10.1016/j.knosys.2023.110963},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S095070512300713X},
+  abbr={KBS},
+  code={https://github.com/Tianfang-Zhang},
+  selected={true}  
+}
+
+@inproceedings{zhang2022lrcsnet,
+  title={LR-CSNet: Low-rank Deep Unfolding Network for Image Compressive Sensing},
+  author={Zhang, Tianfang and Li, Lei and Igel, Christian and Oehmcke, Stefan and Gieseke, Fabian and Peng, Zhenming},
+  booktitle={Proceedings of the 8th IEEE International Conference on Computer and Communications},
+  abstract={Deep unfolding networks (DUNs) have proven to be a viable approach to compressive sensing (CS). In this work, we propose a DUN called low-rank CS network (LR-CSNet) for natural image CS. Real-world image patches are often well-represented by low-rank approximations. LR-CSNet exploits this property by adding a low-rank prior to the CS optimization task. We derive a corresponding iterative optimization procedure using variable splitting, which is then translated to a new DUN architecture. The architecture uses low-rank generation modules (LRGMs), which learn low-rank matrix factorizations, as well as gradient descent and proximal mappings (GDPMs), which are proposed to extract high-frequency features to refine image details. In addition, the deep features generated at each reconstruction stage in the DUN are transferred between stages to boost the performance. Our extensive experiments on three widely considered datasets demonstrate the promising performance of LR-CSNet compared to state-of-the-art methods in natural image CS.},  
+  pages={1951--1957},
+  year={2022},
+  address={Virtual},
+
+  preview={lrcsnet.png},
+  award={Oral},
+  abbr={ICCC},
+  html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
+  arxiv={2212.09088},
+  selected={true}
+}
+
+@article{zhang2023attention,
+  title={Attention-Guided Pyramid Context Networks for Detecting Infrared Small Target Under Complex Background},
+  author={Zhang, Tianfang and Li, Lei and Cao, Siying and Pu, Tian and Peng, Zhenming},
+  abstract={Infrared small target detection techniques remain a challenging task due to the complex background. To overcome this problem, by exploring context information, this research presents a data-driven approach called Attention-Guided Pyramid Context Network (AGPCNet). Specifically, we design Attention-Guided Context Block (AGCB) and perceive pixel correlations within and between patches at specific scales via Local Semantic Association (LSA) and Global Context Attention (GCA) respectively. Then the contextual information from multiple scales is fused by Context Pyramid Module (CPM) to achieve better feature representation. In the upsampling stage, we fuse the low and deep semantics through Asymmetric Fusion Module (AFM) to retain more information about small targets. The experimental results illustrate that AGPCNet has achieved state-of-the-art performance on three available infrared small target datasets.},  
+  journal={IEEE Transactions on Aerospace and Electronic Systems},
+  year={2023},
+  publisher={IEEE},
+  doi={10.1109/TAES.2023.3238703},
+
+  preview={agpcnet.jpg},
+  abbr={TAES},
+  html={https://ieeexplore.ieee.org/abstract/document/10024907},
+  code={https://github.com/Tianfang-Zhang/AGPCNet},
   selected={true}
 }
 
@@ -36,38 +68,25 @@
   selected={true}
 }
 
-@article{zhang2023attention,
-  title={Attention-Guided Pyramid Context Networks for Detecting Infrared Small Target Under Complex Background},
-  author={Zhang, Tianfang and Li, Lei and Cao, Siying and Pu, Tian and Peng, Zhenming},
-  abstract={Infrared small target detection techniques remain a challenging task due to the complex background. To overcome this problem, by exploring context information, this research presents a data-driven approach called Attention-Guided Pyramid Context Network (AGPCNet). Specifically, we design Attention-Guided Context Block (AGCB) and perceive pixel correlations within and between patches at specific scales via Local Semantic Association (LSA) and Global Context Attention (GCA) respectively. Then the contextual information from multiple scales is fused by Context Pyramid Module (CPM) to achieve better feature representation. In the upsampling stage, we fuse the low and deep semantics through Asymmetric Fusion Module (AFM) to retain more information about small targets. The experimental results illustrate that AGPCNet has achieved state-of-the-art performance on three available infrared small target datasets.},  
-  journal={IEEE Transactions on Aerospace and Electronic Systems},
-  year={2023},
-  publisher={IEEE},
-  doi={10.1109/TAES.2023.3238703},
+@article{zhang2019infrared,
+  title={Infrared small target detection based on non-convex optimization with Lp-norm constraint},
+  author={Zhang, Tianfang and Wu, Hao and Liu, Yuhan and Peng, Lingbing and Yang, Chunping and Peng, Zhenming},
+  journal={Remote Sensing},
+  abstract={The infrared search and track (IRST) system has been widely used, and the field of infrared small target detection has also received much attention. Based on this background, this paper proposes a novel infrared small target detection method based on non-convex optimization with Lp-norm constraint (NOLC). The NOLC method strengthens the sparse item constraint with Lp-norm while appropriately scaling the constraints on low-rank item, so the NP-hard problem is transformed into a non-convex optimization problem. First, the infrared image is converted into a patch image and is secondly solved by the alternating direction method of multipliers (ADMM). In this paper, an efficient solver is given by improving the convergence strategy. The experiment shows that NOLC can accurately detect the target and greatly suppress the background, and the advantages of the NOLC method in detection efficiency and computational efficiency are verified.},  
+  volume={11},
+  number={5},
+  pages={559},
+  year={2019},
+  publisher={MDPI},
 
-  preview={agpcnet.jpg},
-  abbr={TAES},
-  html={https://ieeexplore.ieee.org/abstract/document/10024907},
-  code={https://github.com/Tianfang-Zhang/AGPCNet},
+  preview={nolc.png},
+  abbr={Remote Sens.},
+  html={https://www.mdpi.com/2072-4292/11/5/559},
+  code={https://github.com/Tianfang-Zhang/NOLC},
   selected={true}
 }
 
-@inproceedings{zhang2022lrcsnet,
-  title={LR-CSNet: Low-rank Deep Unfolding Network for Image Compressive Sensing},
-  author={Zhang, Tianfang and Li, Lei and Igel, Christian and Oehmcke, Stefan and Gieseke, Fabian and Peng, Zhenming},
-  booktitle={Proceedings of the 8th IEEE International Conference on Computer and Communications},
-  abstract={Deep unfolding networks (DUNs) have proven to be a viable approach to compressive sensing (CS). In this work, we propose a DUN called low-rank CS network (LR-CSNet) for natural image CS. Real-world image patches are often well-represented by low-rank approximations. LR-CSNet exploits this property by adding a low-rank prior to the CS optimization task. We derive a corresponding iterative optimization procedure using variable splitting, which is then translated to a new DUN architecture. The architecture uses low-rank generation modules (LRGMs), which learn low-rank matrix factorizations, as well as gradient descent and proximal mappings (GDPMs), which are proposed to extract high-frequency features to refine image details. In addition, the deep features generated at each reconstruction stage in the DUN are transferred between stages to boost the performance. Our extensive experiments on three widely considered datasets demonstrate the promising performance of LR-CSNet compared to state-of-the-art methods in natural image CS.},  
-  pages={1951--1957},
-  year={2022},
-  address={Virtual},
 
-  preview={lrcsnet.png},
-  award={Oral},
-  abbr={ICCC},
-  html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
-  arxiv={2212.09088},
-  selected={true}
-}
 
 @article{zhang2018infrared,
   title={Infrared Small Target Detection via Non-convex Rank Approximation Minimization Joint l2,1 Norm},
@@ -170,21 +189,4 @@
   html={https://www.sciencedirect.com/science/article/abs/pii/S0097849323001735},
   abbr={Computers \& Graphics},
   selected={False}  
-}
-
-@article{zhang2023optimization,
-  title={Optimization-inspired Cumulative Transmission Network for image compressive sensing},
-  author={Zhang, Tianfang and Li, Lei and Peng, Zhenming},
-  journal={Knowledge-Based Systems},
-  pages={110963},
-  year={2023},
-  publisher={Elsevier},
-
-  abstract={Compressive Sensing (CS) techniques enable accurate signal reconstruction with few measurements. Deep Unfolding Networks (DUNs) have recently been shown to increase the efficiency of CS by emulating iterative CS optimization procedures by neural networks. However, most of these DUNs suffer from redundant update procedures or complex matrix operations, which can impair their reconstruction performances. Here we propose the optimization-inspired Cumulative Transmission Network (CT-Net), a DUN approach for natural image CS. We formulate an optimization procedure introducing an auxiliary variable similar to Half Quadratic Splitting (HQS). Unfolding this procedure defines the basic structure of our neural architecture, which is then further refined. A CT-Net is composed of Reconstruction Fidelity Modules (RFMs) for minimizing the reconstruction error and Constraint Gradient Approximation (CGA) modules for approximating (the gradient of) sparsity constraints instead of relying on an analytic solutions such as soft-thresholding. Furthermore, a lightweight Cumulative Transmission (CT) between CGAs in each reconstruction stage is proposed to facilitate a better feature representation. Experiments on several widely used natural image benchmarks illustrate the effectiveness of CT-Net with significant performance improvements and fewer network parameters compared to existing state-of-the-art methods. The experiments also demonstrate the scene and noise robustness of the proposed method.},  
-  preview={ctnet.png},
-  doi={10.1016/j.knosys.2023.110963},
-  html={https://www.sciencedirect.com/science/article/abs/pii/S095070512300713X},
-  abbr={KBS},
-  code={https://github.com/Tianfang-Zhang},
-  selected={true}  
 }
