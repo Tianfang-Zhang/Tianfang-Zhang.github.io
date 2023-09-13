@@ -80,6 +80,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2022
+      items: 
+        - International Conference on Computer and Communications (ICCC) Best Paper and Best Presentation Award.
     - year: 2020
       items: 
         - Joint doctoral scholarship awarded by <a href="https://www.csc.edu.cn/">China Scholarship Council (CSC)</a>.
