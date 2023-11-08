@@ -1,6 +1,23 @@
 ---
 ---
 
+## 2023
+@article{wu2023rpcanet,
+  title={RPCANet: Deep Unfolding RPCA Based Infrared Small Target Detection},
+  author={Wu*, Fengyi and Zhang*, Tianfang and Li, Lei and Huang, Yian and Peng, Zhenming},
+  journal={IEEE/CVF Winter Conference on Applications of Computer Vision},
+  year={2023},
+
+  abstract={Deep learning (DL) networks have achieved remarkable performance in infrared small target detection (ISTD). However, these structures exhibit a deficiency in interpretability and are widely regarded as black boxes, as they disregard domain knowledge in ISTD. To alleviate this issue, this work proposes an interpretable deep network for detecting infrared dim targets, dubbed RPCANet. Specifically, our approach formulates the ISTD task as sparse target extraction, low-rank background estimation, and image reconstruction in a relaxed Robust Principle Component Analysis (RPCA) model. By unfolding the iterative optimization updating steps into a deep-learning framework, time-consuming and complex matrix calculations are replaced by theory-guided neural networks. RPCANet detects targets with clear interpretability and preserves the intrinsic image feature, instead of directly transforming the detection task into a matrix decomposition problem. Extensive experiments substantiate the effectiveness of our deep unfolding framework and demonstrate its trustworthy results, surpassing baseline methods in both qualitative and quantitative evaluations.},  
+  preview={rpcanet.png},
+  
+  html={https://arxiv.org/abs/2311.00917},
+  abbr={WACV 2024},
+  code={https://github.com/fengyiwu98/RPCANet},
+  selected={true} 
+}
+
+
 @article{zhang2023optimization,
   title={Optimization-inspired Cumulative Transmission Network for image compressive sensing},
   author={Zhang*, Tianfang and Li*, Lei and Peng, Zhenming},
@@ -16,24 +33,6 @@
   abbr={KBS},
   code={https://github.com/Tianfang-Zhang/CT-Net},
   selected={true}  
-}
-
-@inproceedings{zhang2022lrcsnet,
-  title={LR-CSNet: Low-rank Deep Unfolding Network for Image Compressive Sensing},
-  author={Zhang, Tianfang and Li, Lei and Igel, Christian and Oehmcke, Stefan and Gieseke, Fabian and Peng, Zhenming},
-  booktitle={Proceedings of the 8th IEEE International Conference on Computer and Communications},
-  abstract={Deep unfolding networks (DUNs) have proven to be a viable approach to compressive sensing (CS). In this work, we propose a DUN called low-rank CS network (LR-CSNet) for natural image CS. Real-world image patches are often well-represented by low-rank approximations. LR-CSNet exploits this property by adding a low-rank prior to the CS optimization task. We derive a corresponding iterative optimization procedure using variable splitting, which is then translated to a new DUN architecture. The architecture uses low-rank generation modules (LRGMs), which learn low-rank matrix factorizations, as well as gradient descent and proximal mappings (GDPMs), which are proposed to extract high-frequency features to refine image details. In addition, the deep features generated at each reconstruction stage in the DUN are transferred between stages to boost the performance. Our extensive experiments on three widely considered datasets demonstrate the promising performance of LR-CSNet compared to state-of-the-art methods in natural image CS.},  
-  pages={1951--1957},
-  year={2022},
-  address={Virtual},
-
-  preview={lrcsnet.png},
-  award={Oral},
-  abbr={ICCC},
-  html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
-  arxiv={2212.09088},
-  code={https://github.com/Tianfang-Zhang/LowRank-CSNet},
-  selected={true}
 }
 
 @article{zhang2023attention,
@@ -52,6 +51,64 @@
   selected={true}
 }
 
+@article{li2023mask,
+  title={Mask-FPAN: Semi-supervised Face Parsing in the Wild with De-occlusion and UV GAN},
+  author={Li, Lei and Zhang, Tianfang and Kang, Zhongfeng and Jiang, Xikun},
+  journal={Computers \& Graphics},
+  year={2023},
+  publisher={Elsevier},
+
+  abstract={The field of fine-grained semantic segmentation for a person’s face and head, which includes identifying facial parts and head components, has made significant progress in recent years. However, this task remains challenging due to the difficulty of considering ambiguous occlusions and large pose variations. To address these difficulties, we propose a new framework called Mask-FPAN. Our framework includes a de-occlusion module that learns to parse occluded faces in a semi-supervised manner, taking into account face landmark localization, face occlusion estimations, and detected head poses. Additionally, we improve the robustness of 2D face parsing by combining a 3D morphable face model with the UV GAN. We also introduce two new datasets, named FaceOccMask-HQ and CelebAMaskOcc-HQ, to aid in face parsing work. Our proposed Mask-FPAN framework successfully addresses the challenge of face parsing in the wild and achieves significant performance improvements, with a mIoU increase from 0.7353 to 0.9013 compared to the current state-of-the-art on challenging face datasets.},  
+  preview={maskfpan.png},
+  doi={10.1016/j.cag.2023.08.003},
+  html={https://www.sciencedirect.com/science/article/abs/pii/S0097849323001735},
+  abbr={Computers \& Graphics},
+  selected={False}  
+}
+
+@article{li2023buildseg,
+  title={BuildSeg BuildSeg: A General Framework for the Segmentation of Buildings},
+  author={Li, Lei and Zhang, Tianfang and Oehmcke, Stefan and Gieseke, Fabian and Igel, Christian},
+  journal={Nordic Machine Intelligence},
+  volume={2},
+  number={3},
+  pages={13--16},
+  year={2023},
+  publisher={Nordic Machine Intelligence},
+
+  abstract={Building segmentation from aerial images and 3D laser scanning (LiDAR) is a challenging task due to the diversity of backgrounds, building textures, and image quality. While current research using different types of convolutional and transformer networks has considerably improved the performance on this task, more precise and accurate segmentation methods for buildings are desirable for applications such as automatic mapping. In this study, we propose a general framework termed BuildSeg employing a generic approach that can be quickly applied to segment buildings. Different data sources were combined to increase generalization performance. The approach yields good results for different data sources as shown by experiments on high-resolution multi-spectral and LiDAR imagery of cities in Norway, Denmark, and France. We applied ConvNeXt and SegFormer-based models on the high-resolution aerial image dataset from the MapAI-competition. The methods achieved an IoU of 0.7902 and a boundary IoU of 0.6185 on the test set. We used post-processing to account for the rectangular shape of the objects.This increased the boundary IOU from 0.6185 to 0.6189.},  
+  preview={buildseg.png},
+  doi={10.5617/nmi.10152},
+  abbr={NMI},
+  html={https://journals.uio.no/NMI/article/view/10152},
+  selected={False}  
+}
+
+
+
+
+
+## 2022
+@inproceedings{zhang2022lrcsnet,
+  title={LR-CSNet: Low-rank Deep Unfolding Network for Image Compressive Sensing},
+  author={Zhang, Tianfang and Li, Lei and Igel, Christian and Oehmcke, Stefan and Gieseke, Fabian and Peng, Zhenming},
+  booktitle={Proceedings of the 8th IEEE International Conference on Computer and Communications},
+  abstract={Deep unfolding networks (DUNs) have proven to be a viable approach to compressive sensing (CS). In this work, we propose a DUN called low-rank CS network (LR-CSNet) for natural image CS. Real-world image patches are often well-represented by low-rank approximations. LR-CSNet exploits this property by adding a low-rank prior to the CS optimization task. We derive a corresponding iterative optimization procedure using variable splitting, which is then translated to a new DUN architecture. The architecture uses low-rank generation modules (LRGMs), which learn low-rank matrix factorizations, as well as gradient descent and proximal mappings (GDPMs), which are proposed to extract high-frequency features to refine image details. In addition, the deep features generated at each reconstruction stage in the DUN are transferred between stages to boost the performance. Our extensive experiments on three widely considered datasets demonstrate the promising performance of LR-CSNet compared to state-of-the-art methods in natural image CS.},  
+  pages={1951--1957},
+  year={2022},
+  address={Virtual},
+
+  preview={lrcsnet.png},
+  award={Oral},
+  abbr={ICCC 2022},
+  html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
+  arxiv={2212.09088},
+  code={https://github.com/Tianfang-Zhang/LowRank-CSNet},
+  selected={true}
+}
+
+
+## 2021
 @article{zhang2021infrared,
   title={Infrared small target detection via self-regularized weighted sparse model},
   author={Zhang, Tianfang and Peng, Zhenming and Wu, Hao and He, Yanmin and Li, Chaohai and Yang, Chunping},
@@ -69,6 +126,9 @@
   selected={true}
 }
 
+
+
+## 2019
 @article{zhang2019infrared,
   title={Infrared small target detection based on non-convex optimization with Lp-norm constraint},
   author={Zhang, Tianfang and Wu, Hao and Liu, Yuhan and Peng, Lingbing and Yang, Chunping and Peng, Zhenming},
@@ -85,26 +145,6 @@
   html={https://www.mdpi.com/2072-4292/11/5/559},
   code={https://github.com/Tianfang-Zhang/NOLC},
   selected={true}
-}
-
-
-
-@article{zhang2018infrared,
-  title={Infrared Small Target Detection via Non-convex Rank Approximation Minimization Joint l2,1 Norm},
-  author={Zhang, Landan and Peng, Lingbing and Zhang, Tianfang and Cao, Siying and Peng, Zhenming},
-  journal={Remote Sensing},
-  volume={10},
-  number={11},
-  pages={1821},
-  year={2018},
-  publisher={MDPI},
-
-  abstract={To improve the detection ability of infrared small targets in complex backgrounds, a novel method based on non-convex rank approximation minimization joint l2,1 norm (NRAM) was proposed. Due to the defects of the nuclear norm and l1 norm, the state-of-the-art infrared image-patch (IPI) model usually leaves background residuals in the target image. To fix this problem, a non-convex, tighter rank surrogate and weighted l1 norm are instead utilized, which can suppress the background better while preserving the target efficiently. Considering that many state-of-the-art methods are still unable to fully suppress sparse strong edges, the structured l2,1 norm was introduced to wipe out the strong residuals. Furthermore, with the help of exploiting the structured norm and tighter rank surrogate, the proposed model was more robust when facing various complex or blurry scenes. To solve this non-convex model, an efficient optimization algorithm based on alternating direction method of multipliers (ADMM) plus difference of convex (DC) programming was designed. Extensive experimental results illustrate that the proposed method not only shows superiority in background suppression and target enhancement, but also reduces the computational complexity compared with other baselines.},  
-  preview={nram.png},
-  abbr={Remote Sens.},
-  html={https://www.mdpi.com/2072-4292/10/11/1821},
-  doi={10.3390/rs10111821},
-  selected={False}
 }
 
 @article{huang2019structure,
@@ -159,35 +199,23 @@
   selected={False}  
 }
 
-@article{li2023buildseg,
-  title={BuildSeg BuildSeg: A General Framework for the Segmentation of Buildings},
-  author={Li, Lei and Zhang, Tianfang and Oehmcke, Stefan and Gieseke, Fabian and Igel, Christian},
-  journal={Nordic Machine Intelligence},
-  volume={2},
-  number={3},
-  pages={13--16},
-  year={2023},
-  publisher={Nordic Machine Intelligence},
 
-  abstract={Building segmentation from aerial images and 3D laser scanning (LiDAR) is a challenging task due to the diversity of backgrounds, building textures, and image quality. While current research using different types of convolutional and transformer networks has considerably improved the performance on this task, more precise and accurate segmentation methods for buildings are desirable for applications such as automatic mapping. In this study, we propose a general framework termed BuildSeg employing a generic approach that can be quickly applied to segment buildings. Different data sources were combined to increase generalization performance. The approach yields good results for different data sources as shown by experiments on high-resolution multi-spectral and LiDAR imagery of cities in Norway, Denmark, and France. We applied ConvNeXt and SegFormer-based models on the high-resolution aerial image dataset from the MapAI-competition. The methods achieved an IoU of 0.7902 and a boundary IoU of 0.6185 on the test set. We used post-processing to account for the rectangular shape of the objects.This increased the boundary IOU from 0.6185 to 0.6189.},  
-  preview={buildseg.png},
-  doi={10.5617/nmi.10152},
-  abbr={NMI},
-  html={https://journals.uio.no/NMI/article/view/10152},
-  selected={False}  
-}
 
-@article{li2023mask,
-  title={Mask-FPAN: Semi-supervised Face Parsing in the Wild with De-occlusion and UV GAN},
-  author={Li, Lei and Zhang, Tianfang and Kang, Zhongfeng and Jiang, Xikun},
-  journal={Computers \& Graphics},
-  year={2023},
-  publisher={Elsevier},
+## 2018
+@article{zhang2018infrared,
+  title={Infrared Small Target Detection via Non-convex Rank Approximation Minimization Joint l2,1 Norm},
+  author={Zhang, Landan and Peng, Lingbing and Zhang, Tianfang and Cao, Siying and Peng, Zhenming},
+  journal={Remote Sensing},
+  volume={10},
+  number={11},
+  pages={1821},
+  year={2018},
+  publisher={MDPI},
 
-  abstract={The field of fine-grained semantic segmentation for a person’s face and head, which includes identifying facial parts and head components, has made significant progress in recent years. However, this task remains challenging due to the difficulty of considering ambiguous occlusions and large pose variations. To address these difficulties, we propose a new framework called Mask-FPAN. Our framework includes a de-occlusion module that learns to parse occluded faces in a semi-supervised manner, taking into account face landmark localization, face occlusion estimations, and detected head poses. Additionally, we improve the robustness of 2D face parsing by combining a 3D morphable face model with the UV GAN. We also introduce two new datasets, named FaceOccMask-HQ and CelebAMaskOcc-HQ, to aid in face parsing work. Our proposed Mask-FPAN framework successfully addresses the challenge of face parsing in the wild and achieves significant performance improvements, with a mIoU increase from 0.7353 to 0.9013 compared to the current state-of-the-art on challenging face datasets.},  
-  preview={maskfpan.png},
-  doi={10.1016/j.cag.2023.08.003},
-  html={https://www.sciencedirect.com/science/article/abs/pii/S0097849323001735},
-  abbr={Computers \& Graphics},
-  selected={False}  
+  abstract={To improve the detection ability of infrared small targets in complex backgrounds, a novel method based on non-convex rank approximation minimization joint l2,1 norm (NRAM) was proposed. Due to the defects of the nuclear norm and l1 norm, the state-of-the-art infrared image-patch (IPI) model usually leaves background residuals in the target image. To fix this problem, a non-convex, tighter rank surrogate and weighted l1 norm are instead utilized, which can suppress the background better while preserving the target efficiently. Considering that many state-of-the-art methods are still unable to fully suppress sparse strong edges, the structured l2,1 norm was introduced to wipe out the strong residuals. Furthermore, with the help of exploiting the structured norm and tighter rank surrogate, the proposed model was more robust when facing various complex or blurry scenes. To solve this non-convex model, an efficient optimization algorithm based on alternating direction method of multipliers (ADMM) plus difference of convex (DC) programming was designed. Extensive experimental results illustrate that the proposed method not only shows superiority in background suppression and target enhancement, but also reduces the computational complexity compared with other baselines.},  
+  preview={nram.png},
+  abbr={Remote Sens.},
+  html={https://www.mdpi.com/2072-4292/10/11/1821},
+  doi={10.3390/rs10111821},
+  selected={False}
 }
