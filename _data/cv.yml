@@ -11,12 +11,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Information and Communication Engineering
+    - title: B.Eng - M.Eng - Ph.D. in Information and Communication Engineering
       institution: School of Information and Communication Engineering, University of Electronic Science and Technology of China
-      year: 2019 - 2023
+      year: 2013 - 2023
       description:
         - <u>Supervisor:</u> <a href="https://www.sice.uestc.edu.cn/info/1302/5086.htm"><b>Prof. Zhenming Peng</b></a>
-        - <u>Thesis:</u> Infrared Small Target Detection Combined with Sparse Representation and Deep Learning
+        - <u>PhD Thesis:</u> Infrared Small Target Detection Combined with Sparse Representation and Deep Learning
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -26,20 +26,20 @@
       year: 2021 - 2022
       description:
         - <u>Supervisor:</u> <a href="https://sporring.github.io/"><b>Prof. Jon Sporring</b></a>
-    - title: M.Eng. in Signal and Information Processing
-      institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
-      year: 2017 - 2019
-      description:
-        - Successive master-doctor program
-    - title: B.Eng in Electronic Science and Technology
-      institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
-      year: 2013 - 2017
+    # - title: M.Eng. in Signal and Information Processing
+    #   institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
+    #   year: 2017 - 2019
+    #   description:
+    #     - Successive master-doctor program
+    # - title: B.Eng in Electronic Science and Technology
+    #   institution: School of Optoelectronic Infromation, University of Electronic Science and Technology of China
+    #   year: 2013 - 2017
 
 
 - title: Experience
   type: time_table
   contents:
-    - title: Coming soon
+    - title: Algorithm Researcher at <a href="https://www.sensetime.com/cn">SenseTime</a>
       # institution: Institute for Advanced Study, Princeton University
       year: 2023 - Now
       # description:
