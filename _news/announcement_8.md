@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Code and pre-trained model of [CT-Net](https://www.sciencedirect.com/science/article/abs/pii/S095070512300713X) and [LR-CSNet](https://ieeexplore.ieee.org/abstract/document/10065722) are released in [Github CT-Net](https://github.com/Tianfang-Zhang/CT-Net) and [Github LR-CSNet](https://github.com/Tianfang-Zhang/LowRank-CSNet).
+Code and pre-trained model of <a href="https://www.sciencedirect.com/science/article/abs/pii/S095070512300713X">CT-Net</a> and <a href="https://ieeexplore.ieee.org/abstract/document/10065722">LR-CSNet</a> are released in <a href="https://github.com/Tianfang-Zhang/CT-Net">Github CT-Net</a> and <a href="https://github.com/Tianfang-Zhang/LowRank-CSNet">Github LR-CSNet</a>.

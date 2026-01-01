@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Finished my PhD defence, thanks to my supervisor [Prof. Zhenming Peng](https://www.sice.uestc.edu.cn/info/1302/5086.htm) and all the people who helped me! And I'm heading to industry to embrace a new journey.
+Finished my PhD defence, thanks to my supervisor <a href="https://www.sice.uestc.edu.cn/info/1302/5086.htm">Prof. Zhenming Peng</a> and all the people who helped me! And I'm heading to industry to embrace a new journey.
