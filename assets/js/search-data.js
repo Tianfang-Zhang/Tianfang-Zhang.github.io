@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-blog",
-          title: "blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -412,7 +412,7 @@ ninja.data = [{
           title: 'Our paper “Zhang T, Peng Z, Wu H, et al. Infrared small target...',
           description: "",
           section: "News",},{id: "news-code-for-nolc-model-is-available-on-the-github-click-here-for-detail",
-          title: 'Code for NOLC model is available on the Github, click Here for detail....',
+          title: 'Code for NOLC model is available on the Github, click Here for detail...',
           description: "",
           section: "News",},{id: "news-code-for-srws-model-is-avilable-on-the-github-click-here-for-detail",
           title: 'Code for SRWS model is avilable on the Github, click Here for detail....',
@@ -485,7 +485,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%73%70%61%72%6B%63%61%72%6C%65%74%6F%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-github',
