@@ -2,22 +2,26 @@
   - firstname: ["Zhenming", "Z.M.", "Z."]
     url: https://www.sice.uestc.edu.cn/info/1302/5086.htm
 
-"Liu":
+"liu":
   - firstname: ["Yuhan", "Y.H.", "Y."]
     url: https://scholar.google.com/citations?user=Rmsc214AAAAJ&hl=zh-CN
 
-"Li":
+"li":
   - firstname: ["Lei", "L."]
     url: https://di.ku.dk/english/staff/?pure=en/persons/702491
 
-"Igel":
+"igel":
   - firstname: ["Christian", "C."]
     url: https://christian-igel.github.io/
 
-"Kang":
+"kang":
   - firstname: ["Zhongfeng", "Z.F.", "Z."]
     url: https://xxxy.lzu.edu.cn/shiziduiwu/jiaoshiduiwu/fujiaoshou/2023/0911/227147.html
 
-"Wu":
+"wu":
   - firstname: ["Fengyi", "F.Y.", "F."]
     url: https://github.com/fengyiwu98
+
+"dai":
+  - firstname: ["Yimian", "Y.M.", "Y."]
+    url: https://scholar.google.com/citations?user=y5Ov6VAAAAAJ&hl=zh-CN
