@@ -14,6 +14,50 @@
   selected={true}
 }
 
+@article{wu2024saliency,
+  title={Saliency at the helm: Steering infrared small target detection with learnable kernels},
+  author={Wu, Fengyi and Liu, Anran and Zhang, Tianfang and Zhang, Luping and Luo, Junhai and Peng, Zhenming},
+  year={2025},
+  
+  abstract={Infrared small target detection (ISTD) boasts extensive applications across civil and military domains, owing to its exceptional all-day performance. Neural network innovations have led to deep ISTD models that achieve heightened accuracy through extensive datasets. However, these general networks often fail to perceive the sensitivity of small targets and adopt heavy constructions to preserve potential target features, neglecting domain-specific insights and suffering from poor explainability. Our work seeks to rectify this by revisiting the saliency principles inherent to ISTD and developing a learnable local saliency kernel network (L2SKNet). This approach implements a learnable local saliency kernel module (LLSKM) that embodies the concept of “Center subtracts Neighbors,” guiding the network to capture the saliency features (points or edges). We enhance LLSKM by incorporating strategic dilation and structuring it hierarchically, which boosts its capability to capture multiscale infrared features while avoiding parameter explosion. In pursuit of efficiency, we also refine LLSKM into a more compact form by factorizing it into two orthogonal 1-D kernels, yielding a lightweight version. Heatmap visualizations and rigorous quantitative analyses corroborate the effectiveness of our local saliency-guided networks. Comprehensive testing reveals that L2SKNet variants outperform established baselines, demonstrating significant improvements in both visual and numerical assessments.},
+  preview={l2sknet.png},
+  abbr={IEEE TGRS},
+  code={https://github.com/fengyiwu98/L2SKNet},
+  selected={false}
+}
+
+@inproceedings{cai2025role,
+  title={The role of deductive and inductive reasoning in large language models},
+  author={Cai, Chengkun and Zhao, Xu and Liu, Haoliang and Jiang, Zhongyu and Zhang, Tianfang and Wu, Zongkai and Hwang, Jenq-Neng and Li, Lei},
+  year={2025},
+
+  abstract={Large Language Models (LLMs) have demonstrated impressive capabilities in reasoning tasks, yet their reliance on static prompt structures and limited adaptability to complex scenarios remains a significant challenge. In this paper, we propose the Deductive and InDuctive(DID) method, a novel framework that enhances LLM reasoning by dynamically integrating both deductive and inductive reasoning approaches. Drawing from cognitive science principles, DID implements a dual-metric complexity evaluation system that combines Littlestone dimension and information entropy to precisely assess task difficulty and guide decomposition strategies. DID enables the model to progressively adapt its reasoning pathways based on problem complexity, mirroring human cognitive processes. We evaluate DID's effectiveness across multiple benchmarks, including the AIW and MR-GSM8K, as well as our custom Holiday Puzzle dataset for temporal reasoning. Our results demonstrate significant improvements in reasoning quality and solution accuracy - achieving 70.3% accuracy on AIW (compared to 62.2% for Tree of Thought) while maintaining lower computational costs. The success of DID in improving LLM performance while preserving computational efficiency suggests promising directions for developing more cognitively aligned and capable language models. Our work contributes a theoretically grounded, input-centric approach to enhancing LLM reasoning capabilities, offering an efficient alternative to traditional output-exploration methods.},
+  preview={did.jpg},
+  abbr={ACL 2025},
+  selected={false}
+}
+
+@inproceedings{li2025human,
+  title={Human motion instruction tuning},
+  author={Li, Lei and Jia, Sen and Wang, Jianhao and Jiang, Zhongyu and Zhou, Feng and Dai, Ju and Zhang, Tianfang and Wu, Zongkai and Hwang, Jenq-Neng},
+  year={2025},
+
+  abstract={This paper presents LLaMo (Large Language and Human Motion Assistant), a multimodal framework for human motion instruction tuning. In contrast to conventional instruction-tuning approaches that convert non-linguistic inputs, such as video or motion sequences, into language tokens, LLaMo retains motion in its native form for instruction tuning. This method preserves motion-specific details that are often diminished in tokenization, thereby improving the model's ability to interpret complex human behaviors. By processing both video and motion data alongside textual inputs, LLaMo enables a flexible, human-centric analysis. Experimental evaluations across high-complexity domains, including human behaviors and professional activities, indicate that LLaMo effectively captures domain-specific knowledge, enhancing comprehension and prediction in motion-intensive scenarios. We hope LLaMo offers a foundation for future multimodal AI systems with broad applications, from sports analytics to behavioral prediction.},
+  preview={llamo.jpg},
+  abbr={CVPR 2025},
+  selected={false}
+}
+
+@inproceedings{cai2025bayesian,
+  title={Bayesian optimization for controlled image editing via llms},
+  author={Cai, Chengkun and Liu, Haoliang and Zhao, Xu and Jiang, Zhongyu and Zhang, Tianfang and Wu, Zongkai and Lee, John SY and Hwang, Jenq-Neng and Li, Lei},
+  year={2025},
+
+  abstract={In the rapidly evolving field of image generation, achieving precise control over generated content and maintaining semantic consistency remain significant limitations, particularly concerning grounding techniques and the necessity for model fine-tuning. To address these challenges, we propose BayesGenie, an off-the-shelf approach that integrates Large Language Models (LLMs) with Bayesian Optimization to facilitate precise and user-friendly image editing. Our method enables users to modify images through natural language descriptions without manual area marking, while preserving the original image's semantic integrity. Unlike existing techniques that require extensive pre-training or fine-tuning, our approach demonstrates remarkable adaptability across various LLMs through its model-agnostic design. BayesGenie employs an adapted Bayesian optimization strategy to automatically refine the inference process parameters, achieving high-precision image editing with minimal user intervention. Through extensive experiments across diverse scenarios, we demonstrate that our framework significantly outperforms existing methods in both editing accuracy and semantic preservation, as validated using different LLMs including Claude3 and GPT-4.},
+  preview={bayeisian.jpg},
+  abbr={ACL 2025},
+  selected={false}
+}
 
 ## 2024
 @article{zhang2024cas,
@@ -28,6 +72,8 @@
   code={https://github.com/Tianfang-Zhang/CAS-ViT},
   selected={true}
 }
+
+
 
 ## 2023
 @article{wu2023rpcanet,
@@ -124,7 +170,7 @@
   address={Virtual},
 
   preview={lrcsnet.png},
-  award={Oral},
+  award={Best paper award, Oral},
   abbr={ICCC},
   html={http://www-engineeringvillage-com-s.vpn.uestc.edu.cn:8118/app/doc/?docid=cpx_M183ebca618790c4a270M7b8f10178165143&pageSize=25&index=1&searchId=d5a68db9634b471d90ae83ce0532635a&resultsCount=2&usageZone=resultslist&usageOrigin=searchresults&searchType=Quick},
   arxiv={2212.09088},
