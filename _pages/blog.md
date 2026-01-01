@@ -141,7 +141,7 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ post.date | date: '%B %d, %Y' }} by {{ post.authors | first | dig: "name" }} &nbsp; &middot; &nbsp; {{ read_time }} min read
+        {{ post.date | date: '%B %d, %Y' }} by {{ post.authors | first.name }} &nbsp; &middot; &nbsp; {{ read_time }} min read
         <!-- &nbsp; &middot; &nbsp; -->
         <!-- {{ post.date | date: '%B %d, %Y' }} -->
         {% if post.external_source %}
