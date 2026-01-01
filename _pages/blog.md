@@ -84,9 +84,9 @@ pagination:
                     {% assign year = post.date | date: "%Y" %}
 
                     <p class="post-meta">
-                      {{ year }} by {{ post.authors | first }} &nbsp; &middot; &nbsp; {{ read_time }} min read &nbsp; &middot; &nbsp;
-                      <!-- <a href="{{ year | prepend: '/blog/' | relative_url }}">
-                        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a> -->
+                      {{ read_time }} min read &nbsp; &middot; &nbsp;
+                      <a href="{{ year | prepend: '/blog/' | relative_url }}">
+                        <i class="fa-solid fa-calendar fa-sm"></i> {{ year }} </a>
                     </p>
                   </div>
                 </div>
@@ -141,8 +141,9 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-meta">
-        {{ read_time }} min read &nbsp; &middot; &nbsp;
-        {{ post.date | date: '%B %d, %Y' }}
+        {{ post.date | date: '%B %d, %Y' }} by {{ post.authors | first | dig: "name" }} &nbsp; &middot; &nbsp; {{ read_time }} min read
+        <!-- &nbsp; &middot; &nbsp; -->
+        <!-- {{ post.date | date: '%B %d, %Y' }} -->
         {% if post.external_source %}
         &nbsp; &middot; &nbsp; {{ post.external_source }}
         {% endif %}
