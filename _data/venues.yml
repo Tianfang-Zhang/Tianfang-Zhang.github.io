@@ -10,3 +10,9 @@
 
 "ICCC":
   url: http://www.iccc.org/
+
+"KBS":
+  url: https://www.sciencedirect.com/journal/knowledge-based-systems
+
+"Arxiv":
+  url: https://arxiv.org/
