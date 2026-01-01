@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am working on a summary called <a href="https://github.com/Tianfang-Zhang/awesome-infrared-small-targets">Awesome Infrared Small Targets</a>, have a look if you are interested!
+I am working on a summary called [Awesome Infrared Small Targets](https://github.com/Tianfang-Zhang/awesome-infrared-small-targets), have a look if you are interested!

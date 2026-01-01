@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Code for <a href="https://www.sciencedirect.com/science/article/pii/S0925231220313461">SRWS model</a> is avilable on the Github, <a href="https://github.com/Tianfang-Zhang/SRWS">click Here for detail</a>.
+Code for [SRWS model](https://www.sciencedirect.com/science/article/pii/S0925231220313461) is avilable on the Github, [click Here for detail](https://github.com/Tianfang-Zhang/SRWS).

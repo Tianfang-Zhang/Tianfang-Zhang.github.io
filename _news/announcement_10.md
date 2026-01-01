@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-<a href="https://github.com/Tianfang-Zhang/CAS-ViT">Code and pretrained weights</a> of our work on lightweight vision transformers named as <a href="https://arxiv.org/abs/2408.03703">CAS-ViT</a> were accessible.
+[Code and pretrained weights](https://github.com/Tianfang-Zhang/CAS-ViT) of our work on lightweight vision transformers named as [CAS-ViT](https://arxiv.org/abs/2408.03703) were accessible.

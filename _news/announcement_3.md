@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Code for <a href="https://www.mdpi.com/2072-4292/11/5/559">NOLC model</a> is available on the Github, <a href="https://github.com/Tianfang-Zhang/NOLC">click Here for detail</a> .
+Code for [NOLC model](https://www.mdpi.com/2072-4292/11/5/559) is available on the Github, [click Here for detail](https://github.com/Tianfang-Zhang/NOLC).
