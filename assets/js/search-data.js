@@ -27,7 +27,7 @@ ninja.data = [{
         
           title: "RPCANet&lt;sup&gt;++&lt;/sup&gt;：深度可解释的稀疏目标分割方法",
         
-        description: "an example of a distill-style blog post and main elements",
+        description: "",
         section: "Posts",
         handler: () => {
           
