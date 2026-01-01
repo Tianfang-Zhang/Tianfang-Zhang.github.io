@@ -31,7 +31,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2021/rpcanet++/";
+            window.location.href = "/blog/2026/rpcanet++/";
           
         },
       },{id: "books-the-godfather",
