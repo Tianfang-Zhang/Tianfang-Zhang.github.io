@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-05'
+  last_updated: '2026-01-09'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
     citations: 27
@@ -22,7 +22,7 @@ papers:
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 453
+    citations: 455
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
@@ -86,6 +86,6 @@ papers:
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 452
+    citations: 454
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
