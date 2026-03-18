@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-11'
+  last_updated: '2026-03-18'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
-    citations: 36
+    citations: 44
     title: 'Saliency at the helm: Steering infrared small target detection with learnable kernels'
     year: '2024'
   ROZkiXQAAAAJ:2osOgNQ5qMEC:
@@ -10,25 +10,25 @@ papers:
     title: "Infrared dim target detection using shearlet\u2019s kurtosis maximization under non-uniform background"
     year: '2019'
   ROZkiXQAAAAJ:5nxA0vEk-isC:
-    citations: 8
+    citations: 10
     title: Bayesian optimization for controlled image editing via llms
     year: '2025'
   ROZkiXQAAAAJ:8k81kl-MbHgC:
-    citations: 22
+    citations: 26
     title: Human motion instruction tuning
     year: '2025'
   ROZkiXQAAAAJ:9yKSN-GCB0IC:
-    citations: 168
+    citations: 174
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 479
+    citations: 488
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
-    citations: 119
+    citations: 128
     title: 'Cas-vit: Convolutional additive self-attention vision transformers for efficient mobile applications'
-    year: '2024'
+    year: '2026'
   ROZkiXQAAAAJ:MXK_kJrjxJIC:
     citations: 5
     title: 'RPCANet++: Deep interpretable robust PCA for sparse object segmentation'
@@ -38,15 +38,15 @@ papers:
     title: Tree Counting by Bridging 3D Point Clouds with Imagery
     year: '2024'
   ROZkiXQAAAAJ:Tyk-4Ss8FVUC:
-    citations: 21
+    citations: 22
     title: 'LR-CSNet: Low-rank deep unfolding network for image compressive sensing'
     year: '2022'
   ROZkiXQAAAAJ:UeHWp8X0CEIC:
-    citations: 173
+    citations: 177
     title: Infrared small target detection via self-regularized weighted sparse model
     year: '2021'
   ROZkiXQAAAAJ:UebtZRa9Y70C:
-    citations: 10
+    citations: 11
     title: 'Scalinggaussian: Enhancing 3d content creation with generative gaussian splatting'
     year: '2024'
   ROZkiXQAAAAJ:WF5omc3nYNoC:
@@ -58,15 +58,15 @@ papers:
     title: 'BuildSeg: a general framework for the segmentation of buildings'
     year: '2023'
   ROZkiXQAAAAJ:d1gkVwhDpl0C:
-    citations: 24
+    citations: 25
     title: 'Mask-fpan: Semi-supervised face parsing in the wild with de-occlusion and uv gan'
     year: '2023'
   ROZkiXQAAAAJ:eQOLeE2rZwMC:
-    citations: 7
-    title: Design and implementation of a Soccer Ball detection system with multiple cameras
+    citations: 6
+    title: Design and implementation of a soccer ball detection system with multiple cameras
     year: '2023'
   ROZkiXQAAAAJ:hqOjcs7Dif8C:
-    citations: 23
+    citations: 29
     title: The role of deductive and inductive reasoning in large language models
     year: '2025'
   ROZkiXQAAAAJ:qjMakFHDy7sC:
@@ -75,17 +75,17 @@ papers:
     year: '2019'
   ROZkiXQAAAAJ:roLk4NBRz8UC:
     citations: 2
-    title: 'Medflip: Medical vision-and-language self-supervised fast pre-training with masked autoencoder'
+    title: 'Medflip: medical vision-and-language self-supervised fast pre-training with masked autoencoder'
     year: '2024'
   ROZkiXQAAAAJ:u5HHmVD_uO8C:
     citations: 21
     title: Infrared small-target detection based on multi-directional multi-scale high-boost response
     year: '2019'
   ROZkiXQAAAAJ:ufrVoPGSRksC:
-    citations: 123
+    citations: 133
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 506
+    citations: 539
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
