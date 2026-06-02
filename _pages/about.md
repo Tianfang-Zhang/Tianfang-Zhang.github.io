@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <b>Algorithm Researcher</b> @ <a href="https://www.sensetime.com/cn">SenseTime</a> and <b>Post Doc</b> @ <a href="https://www.tsinghua.edu.cn/">THU</a>
+subtitle: <b>Post Doc</b> @ <a href="https://www.tsinghua.edu.cn/">Tsinghua University</a>
 
 profile:
   align: right
@@ -29,8 +29,9 @@ latest_posts:
 
 Hey, thanks for stopping by! 👋
 
-I am working as an algorithm researcher at [SenseTime](https://www.sensetime.com/cn) and a post doc at [THU](https://www.tsinghua.edu.cn/). My current research interests includes lightweight network design, multimodal large language models, diffusion models.
+I am post doc at [Tsinghua University](https://www.tsinghua.edu.cn/). My current research interests includes lightweight network design, multimodal large language models, diffusion models and AI4Science.
 
+<!-- working as an algorithm researcher at [SenseTime](https://www.sensetime.com/cn) -->
 <!-- I am pursuing a PhD at [the Laboratory of Imaging Detection and Intelligent Perecption (IDIP Lab)](http://idiplab.uestc.cn/) of [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/), supresived by [Prof. Zhenming Peng](https://www.sice.uestc.edu.cn/info/1302/5086.htm) -->
 
 <!-- My PhD research is dedicated to developing trustworthy infrared small target detection methods and also extended to sparse representation, optimization, deep learning and deep unfolding networks. In collaboration with my colleagues, my research interests also include segmentation and image compressive sensing. -->
