@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-03'
+  last_updated: '2026-06-12'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
-    citations: 72
+    citations: 75
     title: 'Saliency at the helm: Steering infrared small target detection with learnable kernels'
     year: '2024'
   ROZkiXQAAAAJ:2osOgNQ5qMEC:
@@ -14,7 +14,7 @@ papers:
     title: Bayesian optimization for controlled image editing via llms
     year: '2025'
   ROZkiXQAAAAJ:8k81kl-MbHgC:
-    citations: 40
+    citations: 42
     title: Human motion instruction tuning
     year: '2025'
   ROZkiXQAAAAJ:9yKSN-GCB0IC:
@@ -22,17 +22,17 @@ papers:
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 522
+    citations: 525
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
-    citations: 146
+    citations: 147
     title: 'Cas-vit: Convolutional additive self-attention vision transformers for efficient mobile applications'
     year: '2026'
   ROZkiXQAAAAJ:MXK_kJrjxJIC:
     citations: 10
-    title: 'RPCANet++: Deep interpretable robust PCA for sparse object segmentation'
-    year: '2025'
+    title: 'RPCANet: Deep Interpretable Robust PCA for Sparse Object Segmentation'
+    year: '2026'
   ROZkiXQAAAAJ:Se3iqnhoufwC:
     citations: 2
     title: Tree Counting by Bridging 3D Point Clouds with Imagery
@@ -42,7 +42,7 @@ papers:
     title: 'LR-CSNet: Low-rank deep unfolding network for image compressive sensing'
     year: '2022'
   ROZkiXQAAAAJ:UeHWp8X0CEIC:
-    citations: 187
+    citations: 188
     title: Infrared small target detection via self-regularized weighted sparse model
     year: '2021'
   ROZkiXQAAAAJ:UebtZRa9Y70C:
@@ -66,7 +66,7 @@ papers:
     title: Design and implementation of a soccer ball detection system with multiple cameras
     year: '2023'
   ROZkiXQAAAAJ:hqOjcs7Dif8C:
-    citations: 41
+    citations: 40
     title: The role of deductive and inductive reasoning in large language models
     year: '2025'
   ROZkiXQAAAAJ:qjMakFHDy7sC:
@@ -82,10 +82,10 @@ papers:
     title: Infrared small-target detection based on multi-directional multi-scale high-boost response
     year: '2019'
   ROZkiXQAAAAJ:ufrVoPGSRksC:
-    citations: 160
+    citations: 163
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 598
+    citations: 602
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
