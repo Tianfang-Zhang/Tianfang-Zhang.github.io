@@ -1,14 +1,18 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-13'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
-    citations: 84
+    citations: 86
     title: 'Saliency at the helm: Steering infrared small target detection with learnable kernels'
     year: '2024'
   ROZkiXQAAAAJ:2osOgNQ5qMEC:
     citations: 24
     title: "Infrared dim target detection using shearlet\u2019s kurtosis maximization under non-uniform background"
     year: '2019'
+  ROZkiXQAAAAJ:3fE2CSJIrl8C:
+    citations: 0
+    title: 'LCPNet: Latent Consistent Proximal Unfolding Network for Infrared Small Target Detection'
+    year: '2026'
   ROZkiXQAAAAJ:5nxA0vEk-isC:
     citations: 13
     title: Bayesian optimization for controlled image editing via llms
@@ -18,11 +22,11 @@ papers:
     title: Human motion instruction tuning
     year: '2025'
   ROZkiXQAAAAJ:9yKSN-GCB0IC:
-    citations: 181
+    citations: 183
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 539
+    citations: 541
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
@@ -30,7 +34,7 @@ papers:
     title: 'Cas-vit: Convolutional additive self-attention vision transformers for efficient mobile applications'
     year: '2026'
   ROZkiXQAAAAJ:MXK_kJrjxJIC:
-    citations: 12
+    citations: 13
     title: 'RPCANet: Deep Interpretable Robust PCA for Sparse Object Segmentation'
     year: '2026'
   ROZkiXQAAAAJ:Se3iqnhoufwC:
@@ -50,7 +54,7 @@ papers:
     title: 'Scalinggaussian: Enhancing 3d content creation with generative gaussian splatting'
     year: '2024'
   ROZkiXQAAAAJ:WF5omc3nYNoC:
-    citations: 16
+    citations: 17
     title: Optimization-inspired Cumulative Transmission Network for image compressive sensing
     year: '2023'
   ROZkiXQAAAAJ:Y0pCki6q_DkC:
@@ -78,14 +82,14 @@ papers:
     title: 'Medflip: medical vision-and-language self-supervised fast pre-training with masked autoencoder'
     year: '2024'
   ROZkiXQAAAAJ:u5HHmVD_uO8C:
-    citations: 21
+    citations: 22
     title: Infrared small-target detection based on multi-directional multi-scale high-boost response
     year: '2019'
   ROZkiXQAAAAJ:ufrVoPGSRksC:
-    citations: 171
+    citations: 172
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 626
+    citations: 629
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
