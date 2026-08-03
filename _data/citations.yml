@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-24'
+  last_updated: '2026-08-03'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
-    citations: 93
+    citations: 100
     title: 'Saliency at the helm: Steering infrared small target detection with learnable kernels'
     year: '2024'
   ROZkiXQAAAAJ:2osOgNQ5qMEC:
@@ -14,23 +14,23 @@ papers:
     title: 'LCPNet: Latent Consistent Proximal Unfolding Network for Infrared Small Target Detection'
     year: '2026'
   ROZkiXQAAAAJ:5nxA0vEk-isC:
-    citations: 15
+    citations: 16
     title: Bayesian optimization for controlled image editing via llms
     year: '2025'
   ROZkiXQAAAAJ:8k81kl-MbHgC:
-    citations: 54
+    citations: 56
     title: Human motion instruction tuning
     year: '2025'
   ROZkiXQAAAAJ:9yKSN-GCB0IC:
-    citations: 183
+    citations: 185
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 549
+    citations: 555
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
-    citations: 160
+    citations: 164
     title: 'Cas-vit: Convolutional additive self-attention vision transformers for efficient mobile applications'
     year: '2026'
   ROZkiXQAAAAJ:MXK_kJrjxJIC:
@@ -39,7 +39,7 @@ papers:
     year: '2026'
   ROZkiXQAAAAJ:Se3iqnhoufwC:
     citations: 2
-    title: Tree Counting by Bridging 3D Point Clouds with Imagery
+    title: Tree counting by bridging 3D Point clouds with imagery
     year: '2024'
   ROZkiXQAAAAJ:Tyk-4Ss8FVUC:
     citations: 22
@@ -70,11 +70,11 @@ papers:
     title: Design and implementation of a soccer ball detection system with multiple cameras
     year: '2023'
   ROZkiXQAAAAJ:hqOjcs7Dif8C:
-    citations: 49
+    citations: 52
     title: The role of deductive and inductive reasoning in large language models
     year: '2025'
   ROZkiXQAAAAJ:qjMakFHDy7sC:
-    citations: 48
+    citations: 47
     title: 'Structure-adaptive clutter suppression for infrared small target detection: Chain-growth filtering'
     year: '2019'
   ROZkiXQAAAAJ:roLk4NBRz8UC:
@@ -86,10 +86,10 @@ papers:
     title: Infrared small-target detection based on multi-directional multi-scale high-boost response
     year: '2019'
   ROZkiXQAAAAJ:ufrVoPGSRksC:
-    citations: 180
+    citations: 181
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 641
+    citations: 644
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
