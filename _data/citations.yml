@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-12'
+  last_updated: '2026-08-17'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
-    citations: 104
+    citations: 105
     title: 'Saliency at the helm: Steering infrared small target detection with learnable kernels'
     year: '2024'
   ROZkiXQAAAAJ:2osOgNQ5qMEC:
@@ -26,11 +26,11 @@ papers:
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 564
+    citations: 567
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
-    citations: 168
+    citations: 170
     title: 'Cas-vit: Convolutional additive self-attention vision transformers for efficient mobile applications'
     year: '2026'
   ROZkiXQAAAAJ:MXK_kJrjxJIC:
@@ -46,7 +46,7 @@ papers:
     title: 'LR-CSNet: Low-rank deep unfolding network for image compressive sensing'
     year: '2022'
   ROZkiXQAAAAJ:UeHWp8X0CEIC:
-    citations: 194
+    citations: 195
     title: Infrared small target detection via self-regularized weighted sparse model
     year: '2021'
   ROZkiXQAAAAJ:UebtZRa9Y70C:
@@ -86,10 +86,10 @@ papers:
     title: Infrared small-target detection based on multi-directional multi-scale high-boost response
     year: '2019'
   ROZkiXQAAAAJ:ufrVoPGSRksC:
-    citations: 186
+    citations: 188
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 657
+    citations: 661
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
