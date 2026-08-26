@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-08-17'
+  last_updated: '2026-08-26'
 papers:
   ROZkiXQAAAAJ:0EnyYjriUFMC:
-    citations: 105
+    citations: 108
     title: 'Saliency at the helm: Steering infrared small target detection with learnable kernels'
     year: '2024'
   ROZkiXQAAAAJ:2osOgNQ5qMEC:
@@ -18,23 +18,23 @@ papers:
     title: Bayesian optimization for controlled image editing via llms
     year: '2025'
   ROZkiXQAAAAJ:8k81kl-MbHgC:
-    citations: 57
+    citations: 59
     title: Human motion instruction tuning
     year: '2025'
   ROZkiXQAAAAJ:9yKSN-GCB0IC:
-    citations: 185
+    citations: 186
     title: Infrared Small Target Detection Based on Non-Convex Optimization with Lp-Norm Constraint
     year: '2019'
   ROZkiXQAAAAJ:IjCSPb-OGe4C:
-    citations: 567
+    citations: 569
     title: Infrared Small Target Detection via Non-Convex Rank Approximation Minimization Joint l2,1 Norm
     year: '2018'
   ROZkiXQAAAAJ:LkGwnXOMwfcC:
-    citations: 170
+    citations: 175
     title: 'Cas-vit: Convolutional additive self-attention vision transformers for efficient mobile applications'
     year: '2026'
   ROZkiXQAAAAJ:MXK_kJrjxJIC:
-    citations: 13
+    citations: 14
     title: 'RPCANet: Deep Interpretable Robust PCA for Sparse Object Segmentation'
     year: '2026'
   ROZkiXQAAAAJ:Se3iqnhoufwC:
@@ -46,7 +46,7 @@ papers:
     title: 'LR-CSNet: Low-rank deep unfolding network for image compressive sensing'
     year: '2022'
   ROZkiXQAAAAJ:UeHWp8X0CEIC:
-    citations: 195
+    citations: 196
     title: Infrared small target detection via self-regularized weighted sparse model
     year: '2021'
   ROZkiXQAAAAJ:UebtZRa9Y70C:
@@ -82,14 +82,14 @@ papers:
     title: 'Medflip: medical vision-and-language self-supervised fast pre-training with masked autoencoder'
     year: '2024'
   ROZkiXQAAAAJ:u5HHmVD_uO8C:
-    citations: 22
+    citations: 23
     title: Infrared small-target detection based on multi-directional multi-scale high-boost response
     year: '2019'
   ROZkiXQAAAAJ:ufrVoPGSRksC:
-    citations: 188
+    citations: 190
     title: 'RPCANet: Deep unfolding RPCA based infrared small target detection'
     year: '2024'
   ROZkiXQAAAAJ:zYLM7Y9cAGgC:
-    citations: 661
+    citations: 667
     title: Attention-guided pyramid context networks for detecting infrared small target under complex background
     year: '2023'
